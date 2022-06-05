@@ -6,6 +6,9 @@
 * Phone: +375 29 859-61-37
 * Email: greysound1991@mail.ru
 * GitHub: First1by
+## About me
+******
+Currently I work as a engineer-constructor. I decided to master a new profession for myself as a front-end developer. Purposeful, fast learner, I like to solve difficult, unusual tasks. I want to get knowledge and skills that will be enough for employment in a company.
 ## Skills
 ******
 * HTML
