@@ -98,6 +98,10 @@ aside.left-content .contact ul li a {
     color: white;
 } 
 
+aside.left-content .contact ul li a:hover {
+    color: antiquewhite;
+}
+
 aside.left-content .education .bntu {
     margin: 0 auto;
     background: url(../rsschool-cv/img/logo-bntu.png) no-repeat center 0%;
@@ -189,9 +193,6 @@ main .strength ul {
     color: #545454;
 }
 
-
-
-
 pre code {
     white-space: pre-wrap;
 }
@@ -227,12 +228,16 @@ footer p {
 footer a {
     
     font-size: 20px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 700;
     /* text-decoration: none; */
     color: white;
 }
 
+footer a:hover {
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
 footer .rs-school a {
     background-color: antiquewhite;
     display: block;

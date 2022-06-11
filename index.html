@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sergey Afanasyev CV</title>
 </head>
 <body>
     <div class="header-container">
@@ -17,7 +19,6 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#strengths">Strengths</a></li>
                     <li><a href="#code">Code</a></li>
-                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#education">Education</a></li>
                 </ul>
@@ -30,9 +31,9 @@
             <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <ul>
-                    <li>Discord: </br>First1by#4854</li>
-                    <li>Email: </br><a href="mailto:greysound1991@mail.ru">greysound1991@mail.ru</a></li>
-                    <li>Adress: </br><a href="https://goo.gl/maps/SWw3CiYfyzV8fFYR8">Minsk, Belarus</a></li>
+                    <li>Discord: <br>First1by#4854</li>
+                    <li>Email: <br><a href="mailto:greysound1991@mail.ru">greysound1991@mail.ru</a></li>
+                    <li>Adress: <br><a href="https://goo.gl/maps/SWw3CiYfyzV8fFYR8">Minsk, Belarus</a></li>
                 </ul>
             </section>
             <section class="education" id="education">
@@ -61,7 +62,7 @@
                     <li>English - A2</li>
                 </ul>
             </section>
-            <section class="strength" id="strength">
+            <section class="strength" id="strengths">
                 <h2>Strength</h2>
                 <ul>
                     <li>Responsible</li>
@@ -78,7 +79,7 @@
         function pow(x, n) {
             let result = x;
             
-            for (let i = 1; i < n; i++) {
+            for (let i = 1; i &lt; n; i++) {
                 result *= x;
             }
             
@@ -88,7 +89,7 @@
         let x = prompt("x?", '');
         let n = prompt("n?", '');
         
-        if (n < 1) {
+        if (n &lt; 1) {
         alert(`Степень ${n} не поддерживается, используйте натуральное число`);
         } else {
         alert( pow(x, n) );
