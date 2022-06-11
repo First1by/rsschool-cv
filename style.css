@@ -10,7 +10,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #f1f3e5;
+    background-color: darkslategray;
 }
 
 nav a {
@@ -45,6 +45,189 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #545454;;
+    color: floralwhite;
 
+}
+main {
+    display: flex;
+    
+}
+
+aside.left-content {
+    background-color: darkslategray;
+    width: 380px;
+}
+.photo {
+    background: url(../rsschool-cv/img/my-photo.png) no-repeat 0px 0px;
+    width: 380px;
+    height: 566px;
+    background-size: 100%;
+}
+
+aside.left-content .contact h2, aside.left-content .education h2 {
+    margin-top: 21px;
+    padding: 0px 40px;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+aside.left-content .contact ul, aside.left-content .education ul {
+    padding-left: 0;
+}
+
+aside.left-content .contact ul li, aside.left-content .education ul li {
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding: 0 40px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: white;
+
+}
+
+aside.left-content .contact ul li a {
+    color: white;
+} 
+
+aside.left-content .education .bntu {
+    margin: 0 auto;
+    background: url(../rsschool-cv/img/logo-bntu.png) no-repeat center 0%;
+    width: 50%;
+    height: 146px;
+    background-size: 67%;
+}
+
+main .name {
+    padding: 50px 50px;
+}
+main .right-content h1 {
+    
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color:#545454;
+
+}
+main .right-content section p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color:#545454;
+}
+    
+main .about-me h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .about-me p {
+    padding: 30px 50px;
+
+}
+
+main .skills h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .skills ul {
+    padding-left: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #545454;
+}
+
+main .strength h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .strength ul {
+    padding-left: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #545454;
+}
+
+
+
+
+pre code {
+    white-space: pre-wrap;
+}
+
+main .code h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+footer {
+    background-color: #000000ed;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+
+
+
+@media (max-width:768px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main aside.left-content {
+        margin: 0 auto;
+    }
 }
