@@ -209,18 +209,36 @@ main .code h2 {
 }
 
 footer {
+    padding: 10px 10px;
     background-color: #000000ed;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 footer p {
+    color: white;
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
+footer a {
+    
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    /* text-decoration: none; */
+    color: white;
+}
 
+footer .rs-school a {
+    background-color: antiquewhite;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
 
 @media (max-width:768px) {
     main {
