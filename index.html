@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sergey Afanasyev CV</title>
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#strengths">Strengths</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#project">My project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <aside class="left-content">
+            <div class="photo" ></div>
+            <section class="contact" id="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Discord: <br>First1by#4854</li>
+                    <li>Email: <br><a href="mailto:greysound1991@mail.ru">greysound1991@mail.ru</a></li>
+                    <li>Adress: <br><a href="https://goo.gl/maps/SWw3CiYfyzV8fFYR8">Minsk, Belarus</a></li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>2009-2013 <br>Belarusian National Technical university - Faculty of Mechanical Engineering</li>
+                </ul>
+                <div class="bntu"></div>
+            </section>
+        </aside>
+        <div class="right-content">
+            <section class="name">
+                <h1>Sergey Afanasyev</h1>
+                <p>Front-End developer</p>
+            </section>
+            <section class="about-me" id="about">
+                <h2>About me</h2>
+                <p>Currently I work as a engineer-constructor. I decided to master a new profession for myself as a front-end developer. Purposeful, fast learner, I like to solve difficult, unusual tasks. I want to get knowledge and skills that will be enough for employment in a company.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Engineering</li>
+                    <li>Figma, Adobe Photoshop, Git</li>
+                    <li>HTML, CSS, Javascript</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+            <section class="strength" id="strengths">
+                <h2>Strength</h2>
+                <ul>
+                    <li>Responsible</li>
+                    <li>Quick learner</li>
+                    <li>Sociable</li>
+                    <li>Hardworking</li>
+                    <li>Purposeful</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+        function pow(x, n) {
+            let result = x;
+            
+            for (let i = 1; i &lt; n; i++) {
+                result *= x;
+            }
+            
+            return result;
+        }
+            
+        let x = prompt("x?", '');
+        let n = prompt("n?", '');
+        
+        if (n &lt; 1) {
+        alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+        } else {
+        alert( pow(x, n) );
+        }
+                </code>
+            </pre>
+            </section>
+            <section class="my-project" id="project">
+                <h2>My project</h2>
+                <div class="travel-bg">
+                    <a href="https://rolling-scopes-school.github.io/first1by-JSFEPRESCHOOL2022Q2/travel/" target="_blank">
+                        <img src="../rsschool-cv/img/project-travel.png" class="project-bg" alt="travel">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="root">© 2022 by Sergey Afanasyev</p>
+       <a href="https://github.com/First1by" target="_blank">My GitHub</a>
+       <a href="https://www.linkedin.com/in/sergey-afanasyev-1aa87a203/" target="_blank">Linkedin</a>
+       <div class="rs-school">
+           <a href="https://rs.school/js/" target="_blank">
+               <img src="../rsschool-cv/img/rs_school_js.svg" width="80" height="50" alt="rs-sch">
+           </a>
+        </div>
+
+    </footer>
+</body>
+</html>
