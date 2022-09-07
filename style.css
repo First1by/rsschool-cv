@@ -1,0 +1,281 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: darkslategray;
+}
+
+nav a {
+    padding: 14px 10px;
+    
+}
+
+nav a:hover{
+    background-color: #f2c1006e;
+}
+
+header nav {
+    padding: 10px 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+
+}
+main {
+    display: flex;
+    
+}
+
+aside.left-content {
+    background-color: darkslategray;
+    width: 380px;
+}
+.photo {
+    background: url(../rsschool-cv/img/my-photo.png) no-repeat 0px 0px;
+    width: 380px;
+    height: 566px;
+    background-size: 100%;
+}
+
+aside.left-content .contact h2, aside.left-content .education h2 {
+    margin-top: 21px;
+    padding: 0px 40px;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+aside.left-content .contact ul, aside.left-content .education ul {
+    padding-left: 0;
+}
+
+aside.left-content .contact ul li, aside.left-content .education ul li {
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding: 0 40px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: white;
+
+}
+
+aside.left-content .contact ul li a {
+    color: white;
+} 
+
+aside.left-content .contact ul li a:hover {
+    color: antiquewhite;
+}
+
+aside.left-content .education .bntu {
+    margin: 0 auto;
+    background: url(../rsschool-cv/img/logo-bntu.png) no-repeat center 0%;
+    width: 50%;
+    height: 146px;
+    background-size: 67%;
+}
+
+main .name {
+    padding: 50px 50px;
+}
+main .right-content {
+    background-color: whitesmoke;
+}
+
+main .right-content h1 {
+    
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color:#545454;
+
+}
+main .right-content section p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color:#545454;
+}
+    
+main .about-me h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .about-me p {
+    padding: 30px 50px;
+
+}
+
+main .skills h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .skills ul {
+    padding-left: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #545454;
+}
+
+main .strength h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .strength ul {
+    padding-left: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #545454;
+}
+
+pre code {
+    white-space: pre-wrap;
+}
+
+main .code h2, main .my-project h2 {
+    padding-left: 50px;
+    background-color: beige;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+
+main .my-project .project-bg:hover {
+    box-shadow: 0px 0px 5px 5px #232323;
+    transition: all 0.3s ease-in-out;
+}
+
+main .my-project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+main .my-project a img {
+    display: block;
+}
+
+main .my-project .travel-bg {
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+footer {
+    padding: 10px 10px;
+    background-color: #000000ed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+footer a {
+    
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 700;
+    /* text-decoration: none; */
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+footer .rs-school a {
+    background-color: antiquewhite;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+@media (max-width:768px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main aside.left-content {
+        margin: 0 auto;
+    }
+}
