@@ -217,19 +217,24 @@ main .code h2, main .my-project h2 {
 main .my-project .project-bg:hover {
     box-shadow: 0px 0px 5px 5px #232323;
     transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
 }
 
 main .my-project img {
+    overflow: hidden;
     width: 100%;
     height: auto;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
 }
 
 main .my-project a img {
     display: block;
 }
 
-main .my-project .travel-bg {
+main .my-project .travel-bg,
+main .my-project .zoo-bg,
+main .my-project .fifteen {
     margin: 20px;
     border: 1px solid #000;
 }

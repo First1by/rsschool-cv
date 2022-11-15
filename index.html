@@ -77,29 +77,54 @@
                 <h2>Code example</h2>
                 <pre>
                     <code>
-        function pow(x, n) {
-            let result = x;
-
-            for (let i = 1; i &lt; n; i++) {
-                result *= x;
-            }
-
-            return result;
+        function nthFibo(n) {
+          const result = [0,1];
+          if(n) {
+            for (let i = 2; i &lt;= n; i++) {
+              result.push(result[i-2] + result[i-1]);
+            } return result[n-1];
+          } else {
+            return 0;
+          }
         }
 
-        let x = prompt("x?", '');
-        let n = prompt("n?", '');
+        function disemvowel(str) {
+            return str.replace(/[aeiou]/gi, '');
+          }
 
-        if (n &lt; 1) {
-        alert(`Степень ${n} не поддерживается, используйте натуральное число`);
-        } else {
-        alert( pow(x, n) );
-        }</code>
+        function countCats(matrix) {
+        let arrCat = [];
+            for (let i = 0; i &lt; matrix.length; i++) {
+                for (let j = 0; j &lt; matrix[i].length; j++) {
+                if (matrix[i][j] === '^^') {
+                    arrCat.push(matrix[i][j]);
+                }
+                }
+            }
+            return arrCat.length;
+        }
+                    </code>
             </pre>
             </section>
             <section class="my-project" id="project">
-                <h2>My project</h2>
-                <div class="travel-bg"><a href="https://rolling-scopes-school.github.io/first1by-JSFEPRESCHOOL2022Q2/travel/" target="_blank"><img src="../rsschool-cv/img/project-travel.png" class="project-bg" alt="travel"></a></div>
+                <h2>My projects</h2>
+                <div class="travel-bg">
+                    <a href="https://rolling-scopes-school.github.io/first1by-JSFEPRESCHOOL2022Q2/travel/" target="_blank" title="Travel">
+                        <img src="../rsschool-cv/img/project-travel.png" class="project-bg" alt="travel">
+                    </a>
+                </div>
+                <div class="zoo-bg">
+                    <a href="https://rolling-scopes-school.github.io/first1by-JSFE2022Q3/online-zoo/pages/main/" target="_blank" title="Online-zoo">
+                        <img src="../rsschool-cv/img/online-zoo.jpg" class="project-bg" alt="online-zoo">
+                    </a>
+                </div>
+                <div class="fifteen">
+                    <a href="https://rolling-scopes-school.github.io/first1by-JSFE2022Q3/codejam" target="_blank" title="Puzzle-game">
+                        <img src="../rsschool-cv/img/game.jpg" class="project-bg" alt="fifteen">
+                    </a>
+                </div>
+
+
             </section>
         </div>
     </main>
